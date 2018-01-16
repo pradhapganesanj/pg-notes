@@ -1,6 +1,7 @@
 
 bin/
 /dist
+/target
 /tmp
 /out-tsc
 .settings/

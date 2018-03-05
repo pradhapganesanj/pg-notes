@@ -1,0 +1,5 @@
+security:
+jwt:
+token:
+secret-key: salt
+expires: 90000

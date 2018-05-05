@@ -9,7 +9,7 @@ import java.util.Queue;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class ScheduleHelloSrv {
 
 	private Queue<ClientInterval> ciList = new LinkedList<ClientInterval>();
@@ -18,7 +18,7 @@ public class ScheduleHelloSrv {
 		processClientInterval();
 	}
 
-	@Scheduled(fixedRate = 1000)
+	//@Scheduled(fixedRate = 1000)
 	public void logTime() {
 		if (!ciList.isEmpty()) {
 			System.out.println("ClientIntrv process ");
